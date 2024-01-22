@@ -1,0 +1,31 @@
+.continer{
+   width: 100%;
+   padding: 4rem 2rem;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+
+    
+    height: 100vh;
+    gap: 20px;
+}
+
+.continer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.continer div button{
+    background-color: #f34747;
+    height: 30px;
+    border: none;
+    width: 70px;
+    color: white;
+    
+}
+
+.continer div button:hover{
+    background-color: #f93c3c;
+
+}

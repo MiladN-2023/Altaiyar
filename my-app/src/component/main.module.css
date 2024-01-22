@@ -1,0 +1,63 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+.textbanner{
+    position: absolute;
+    bottom: 300px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 20px;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.sec2 div{
+    width: 400px;
+    background-color: white;
+    border-top: 13px solid red;
+    padding: 25px;
+    box-shadow: 1px -2px 11px -3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+   
+}
+
+.sec2 div img{
+    width: 50px;
+    height: 50px;
+}
+
+.menu{
+    background-color: #000000c9;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    top: 60px;
+    z-index: 90;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    backdrop-filter: blur(12px);
+}
+.menu a{
+    margin: 10px 0;
+}
