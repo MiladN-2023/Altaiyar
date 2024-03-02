@@ -3,7 +3,7 @@ import icon1 from '../../../public/map.png'
 import icon2 from '../../../public/icon3.png'
 import icon3 from '../../../public/box.png'
 import icon4 from '../../../public/calender.png'
-import abouts from '../../../public/Ts3.jpg'
+
 import ts5 from '../../../public/Ts5.jpg'
 import ts2 from '../../../public/Ts2.jpg'
 import Image from 'next/image'
@@ -38,7 +38,7 @@ const About = () => {
         </div>
         </div>
         <div className='d-flex flex-column justify-content-center container gap-3 my-5'>
-            <Image src={abouts} className='w-100 h-75' />
+            
             <h1 className='fw-bold'>البداية …</h1>
             <p>تأسست مؤسسة التيار السريع لنقل البري في عام 2002م باسم الهديب، وتم تغير الاسم إلي التيار السريع في عام 2009م بمدينة الرياض.</p>
             <p>ضمن رؤية واضحة وهي العمل على إن تكون ضمن المؤسسات الوطنية العملاقة في مجال النقل البري في المملكة العربية السعودية.</p>
